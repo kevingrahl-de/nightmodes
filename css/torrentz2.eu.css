@@ -1,0 +1,15 @@
+body{background-color:#000;color:#fff !important}
+div.results>h3,ul.autocomplete,div.results>dl,div.downlinks>dl,div.downlinks>p,div.trackers>dl,div.trackers>p,div.files ul,div.files>p{background-color:#000}
+.results{background-color:#000 !important}
+div.results>h3,div.trackers>dl,div.trackers>h2,div.trackers>p,div.downlinks>p,div.files>h2{border-color:#000}
+div.results>h3,div.files>h2,div.trackers>div,div.files>div,div.files li.t,div.files li.o,div.files li{color:#fff}
+form.search #thesearchbutton,div.downlinks>dl>dt>a,div.trackers>h2{color:#fff !important}
+div.results>dl{border-color:#111}
+div#top, form#search,div.trackers,div.files,div.downlinks>dl>dt>a:hover{background-color:#222}
+.downlinks{background-color:#222 !important}
+ul.autocomplete,div.downlinks>dl{border-color:#222}
+#top>ul>li{border-color:#444}
+input{background-color:#444 !important}
+input#thesearchbox{filter:grayscale(1)}
+div.downlinks>dl>dd,.Ads.ads_box.adskeeperWrap,.alert-danger{display:none}
+div.files{border: 1px solid #222}
