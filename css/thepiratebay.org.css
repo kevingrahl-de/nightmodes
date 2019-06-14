@@ -1,0 +1,57 @@
+body{background:#000;color:#fff}
+body a{color:#39b14b !important}
+input[type="search"]{background-color:#111;border-color:#222}
+input[type="submit"]{background-color:#222;border-color:#333;color:#fff;padding:6px 22px;border-radius:15px}
+#fp #inp input{padding:10px 15px;border-radius:10px}
+#icons, #howdl{display:none}
+h2{background:#222 !important;border-color:#333}
+#TPBlogo{filter:invert(1)}
+table#searchResult tr{background:#222}
+table#searchResult th, table#searchResult td{border-color:#333}
+thead#tableHead th{background-color:#111}
+table#searchResult tr.alt{background:#111}
+table#searchResult tr:hover{background:#555}
+font.detDesc{color:#fff}
+div#foot{display:none}
+#detailsframe{background:#222;border-color:#444}
+#detailsframe #title{background:#222;border-color:#444}
+#details{background:#111}
+#details dt{color:#fff;border-color:#444}
+.nfo{background:#222;border-color:#444}
+#details dd{border-color:#444}
+/* Replaces the Pirate Bay logo with an icon from thenounproject.com hosted on my own server.
+   I don't write server logs so I can not track your visits to thepiratebay */
+#TPBlogo{visibility:hidden}a.img{width:80px;height:80px;background:url("https://kevingrahl.de/r/img/tpb/tpb.svg") no-repeat;position:absolute;margin-left:-73px;margin-top:20px}#fp h1 a{background:url(https://kevingrahl.de/r/img/tpb/tpb.svg) no-repeat !important;width:235px;height:295px}#fp #navlinks{margin-top:-50px}#q{padding-left:80px}
+/* Modernized Header with prettier checkboxes and improved layout. 
+   Remove this part if you don't want it */
+#header{background-color:#111;border-radius:10px 10px 0 0;padding:15px}
+input[type="search"]{background:#222;color:#fff;border-radius:6px;border:none}
+#q .inputbox{padding:8px}
+input[type="submit"]{border:none;background-color:#555;border-radius:6px;padding:8px}
+input[type='checkbox'] {position: relative !important;-webkit-appearance: none;-moz-appearance: none;appearance: none;margin: -4px 8px;box-sizing: content-box;overflow: hidden;}
+input[type="checkbox"]::before{content:'';display:block;box-sizing:content-box;width:14px;height:14px;border:2px solid #444;transition:0.2s border-color ease}
+input[type="checkbox"]:checked:before{border-color:#444;transition:0.5s border-color ease}
+input[type="checkbox"]:disabled:before{border-color:#ccc;background-color:#ccc}
+input[type="checkbox"]:after{content:'';display:block;position:absolute;box-sizing:content-box;top:50%;left:50%;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;background-color:#12CBC4;width:16px;height:16px;border-radius:100vh;-webkit-transform:translate(-50%, -50%) scale(0);transform:translate(-50%, -50%) scale(0)}
+input[type="radio"]:before{border-radius:100vh}
+input[type="radio"]:after{width:16px;height:16px;border-radius:100vh;-webkit-transform:translate(-50%, -50%) scale(0);transform:translate(-50%, -50%) scale(0)}
+input[type="radio"]:checked:after{-webkit-animation:toggleOnRadio 0.2s ease forwards;animation:toggleOnRadio 0.2s ease forwards}
+input[type="checkbox"]:before{border-radius:4px}
+input[type="checkbox"]:after{width:8.4px;height:14px;border-radius:0;-webkit-transform:translate(-50%, -85%) scale(0) rotate(45deg);transform:translate(-50%, -85%) scale(0) rotate(45deg);background-color:transparent;box-shadow:4px 4px 0px 0px #39b14b}
+input[type="checkbox"]:checked:after{-webkit-animation:toggleOnCheckbox 0.2s ease forwards;animation:toggleOnCheckbox 0.2s ease forwards}
+input[type="checkbox"].filled:before{border-radius:4px;transition:0.2s border-color ease, 0.2s background-color ease}
+input[type="checkbox"].filled:checked:not(:disabled):before{background-color:#12CBC4}
+input[type="checkbox"].filled:not(:disabled):after{box-shadow:4px 4px 0px 0px white}
+@-webkit-keyframes toggleOnCheckbox{0%{opacity:0;-webkit-transform:translate(-50%, -85%) scale(0) rotate(45deg);transform:translate(-50%, -85%) scale(0) rotate(45deg)}70%{opacity:1;-webkit-transform:translate(-50%, -85%) scale(0.9) rotate(45deg);transform:translate(-50%, -85%) scale(0.9) rotate(45deg)}100%{-webkit-transform:translate(-50%, -85%) scale(0.8) rotate(45deg);transform:translate(-50%, -85%) scale(0.8) rotate(45deg)}}
+@keyframes toggleOnCheckbox{0%{opacity:0;-webkit-transform:translate(-50%, -85%) scale(0) rotate(45deg);transform:translate(-50%, -85%) scale(0) rotate(45deg)}70%{opacity:1;-webkit-transform:translate(-50%, -85%) scale(0.9) rotate(45deg);transform:translate(-50%, -85%) scale(0.9) rotate(45deg)}100%{-webkit-transform:translate(-50%, -85%) scale(0.8) rotate(45deg);transform:translate(-50%, -85%) scale(0.8) rotate(45deg)}}
+@-webkit-keyframes toggleOnRadio{0%{opacity:0;-webkit-transform:translate(-50%, -50%) scale(0);transform:translate(-50%, -50%) scale(0)}70%{opacity:1;-webkit-transform:translate(-50%, -50%) scale(0.9);transform:translate(-50%, -50%) scale(0.9)}100%{-webkit-transform:translate(-50%, -50%) scale(0.8);transform:translate(-50%, -50%) scale(0.8)}}
+@keyframes toggleOnRadio{0%{opacity:0;-webkit-transform:translate(-50%, -50%) scale(0);transform:translate(-50%, -50%) scale(0)}70%{opacity:1;-webkit-transform:translate(-50%, -50%) scale(0.9);transform:translate(-50%, -50%) scale(0.9)}100%{-webkit-transform:translate(-50%, -50%) scale(0.8);transform:translate(-50%, -50%) scale(0.8)}}
+label{font-size:14px;display:inline-block;padding-top:10px}
+select#category{background-color:#222;color:#fff;padding:4px 10px;margin-left:9px;border-radius:6px;border:none}
+#header form#q b{margin-left:-80px}
+.download a:nth-child(2){display:none}
+#detailsframe{border-top-left-radius:6px;border-top-right-radius:6px;padding:6px 0}
+#detailsframe #title {padding-bottom: 13px;}
+textarea:focus,input:focus{outline:none}
+/* Removes Spam Links */
+a[title^='Play now']{display:none}
