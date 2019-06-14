@@ -53,5 +53,6 @@ select#category{background-color:#222;color:#fff;padding:4px 10px;margin-left:9p
 #detailsframe{border-top-left-radius:6px;border-top-right-radius:6px;padding:6px 0}
 #detailsframe #title {padding-bottom: 13px;}
 textarea:focus,input:focus{outline:none}
+#comments .comment{background:#222;padding:6px;border-radius:6px}
 /* Removes Spam Links */
 a[title^='Play now']{display:none}
