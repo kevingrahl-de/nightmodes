@@ -14,5 +14,17 @@ You can find the CSS inside the folder /css Files are named with their URL for e
 ## URL's
 Here are the sites currently done, if you think you see some error while using these snippets please open an issue so that I can fix it!
 
-- https://m.dict.cc/ Online Dictionary, mobile version 
-- https://torrentz2.eu/ Torrent Search Engine
+- https://m.dict.cc Online Dictionary, mobile version 
+- https://torrentz2.eu Torrent Search Engine
+- https://thepiratebay.org Torrent Search Engine
+
+## Screenshots
+Want to see how it looks before bothering to use it?
+I included (multiple) screenshots for every site in the folder /screenshots
+
+Here are a few random examples:
+
+##### m.dict.cc
+![m.dict.cc results screenshot](https://github.com/kevingrahl/nightmodes/blob/master/screenshots/m.dict.cc-result.png)
+##### thepiratebay.org
+![thepiratebay.org search screenshot](https://github.com/kevingrahl/nightmodes/blob/master/screenshots/thepiratebay.org-search.png)
