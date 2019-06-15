@@ -17,6 +17,7 @@ Here are the sites currently done, if you think you see some error while using t
 - https://m.dict.cc Online Dictionary, mobile version 
 - https://torrentz2.eu Torrent Search Engine
 - https://thepiratebay.org Torrent Search Engine
+- https://seedr.cc Browser based Torrent Downloader/Seedbox
 
 ## Screenshots
 Want to see how it looks before bothering to use it?
