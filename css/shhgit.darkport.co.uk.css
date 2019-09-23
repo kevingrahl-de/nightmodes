@@ -1,0 +1,27 @@
+.columns.is-gapless, table.table.is-fullwidth.is-hoverable.is-striped, #menu {
+    background-color: #000 !important;
+}
+
+table.table.is-fullwidth.is-hoverable.is-striped, pre, .menu-list a:hover {
+    color: #ffe;
+}
+
+.table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+    background-color: #111;
+}
+
+strong {
+    color: #dde;
+}
+
+.table thead td, .table thead th {
+    color: #999;
+}
+
+table, .table thead td, .table thead th, .table td, .table th {
+    border-color: #555 !important;
+}
+
+#messages tr:hover, pre, .menu-list a:hover, .menu-list li:hover {
+    background-color: #556;
+}
