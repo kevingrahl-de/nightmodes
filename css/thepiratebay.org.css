@@ -1,4 +1,4 @@
-body{background:#000;color:#fff}
+html, body{background:#000 !important;color:#fff}
 body a{color:#39b14b !important}
 input[type="search"]{background-color:#111;border-color:#222}
 input[type="submit"]{background-color:#222;border-color:#333;color:#fff;padding:6px 22px;border-radius:15px}
